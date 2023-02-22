@@ -1,0 +1,88 @@
+body {
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Head{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Insert{
+    border: 1px solid red;
+    background-color:rgb(121, 121, 201) ;
+    display: grid;
+    align-items: center;
+    justify-content: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 600px;
+    width: 600px;
+}
+.firstname{
+    width: 400px;
+    height: 25px;
+    justify-self: center;
+}
+.surname{
+    width: 400px;
+    height: 25px;
+    justify-self: center;
+}
+.gender{
+    width: 400px;
+    height: 25px;
+    justify-self: center;
+}
+.birthday{
+    width: 400px;
+    height: 25px;
+    justify-self: center;
+}
+.add{
+    width: 410px;
+    height: 35px;
+    justify-self: center;
+}
+div {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  body {
+    padding: 4em;
+    background: #e5e5e5;
+    font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+  label {
+    display: block;
+  }
+  input {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    justify-self: center;
+    width: 400px;
+    height: 25px;
+  }
+  .gender{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    justify-self: center;
+    width: 417px;
+    height: 35px;
+  }
+.heads{
+    border: 1px solid red;
+    background-color: rgb(144, 144, 212);
+}
